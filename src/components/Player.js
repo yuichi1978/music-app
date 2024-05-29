@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export function Player(props) {
   return (
     <footer className="fixed bottom-0 w-full bg-gray-800 p-5">
-      <div className="grid grid-cols-3">
+      <div className="grid grid-cols-2">
         <div className="flex items-center">
           <img
             // 曲のアルバムの画像のURLが取得できた
