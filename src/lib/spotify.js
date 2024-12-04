@@ -38,7 +38,7 @@ class SpotifyClient {
   async getPopularSongs() {
     const response = await axios.get(
       // このエンドポイントはhttps://developer.spotify.com/documentation/web-api/reference/get-playlists-tracksから取得した
-      "https://api.spotify.com/v1/playlists/37i9dQZF1DX9vYRBO9gjDe/tracks",
+      "https://api.spotify.com/v1/playlists/5SLPaOxQyJ8Ne9zpmTOvSe/tracks",
       {
         headers: {
           // Bearerスペースthis.tokenをAuthorizationに入れる
